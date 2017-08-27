@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="assets/css/app.css">
     <script src="/assets/js/foundation.js" defer></script>
     <script src="/assets/js/app.js" defer></script>
-    <script src="/assets/js/materialize.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <!--script(src='/assets/js/materialize.js' defer)-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
     <script src="https://use.fontawesome.com/15a0c13507.js"></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
@@ -26,8 +26,8 @@
           <nav>
             <div class="nav-wrapper"><a class="brand-logo" href="index.html"><img src="assets/img/bg_main.png"><span class="company__title">НПО "Электрокабельный завод"</span></a>
               <ul class="right hide-on-med-and-down" id="nav-mobile">
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Оборудование</a></li>
+                <li><a href="aboutus.html">О нас</a></li>
+                <li><a href="tools.html">Оборудование</a></li>
                 <li><a href="#">Продукция</a></li>
                 <li><a href="#">Наши клиенты</a></li>
                 <li><a href="#">Новости</a></li>
@@ -37,21 +37,32 @@
             </div>
           </nav>
         </div>
-        <div class="header__bg">
-          <div class="header__bg_container">
-            <div class="header__bg_img"><img class="main__bg" src="assets/img/1.jpg">
-              <div class="content_img">
-                <div class="product">Решения</div>
-                <div class="product__about">Компания «НПО «Электрокабельный завод» - российский<br> производитель
-                  электрокабельной продукции, одним из<br> лидирующих направлений которой, является производство<br>
-                  сетевых шнуров, а также жгутов проводов для бытовой техники.
-                </div>
-                <button class="product__btn">Подробнее</button>
+      </section>
+      <!--#rotator-->
+      <!--    ul-->
+      <!--        li.show-->
+      <!--            a(href="#")-->
+      <!--                img(src="assets/img/bg_main.png").slide_current-->
+      <!--        li-->
+      <!--            a(href="#")-->
+      <!--                img(src="assets/img/prom.png").slide_current-->
+      <!--        li-->
+      <!--            a(href="#")-->
+      <!--                img(src="assets/img/viking.png").slide_current-->
+      <div class="header__bg">
+        <div class="header__bg_container">
+          <div class="header__bg_img"><img class="main__bg" src="assets/img/1.jpg">
+            <div class="content_img">
+              <div class="product">Решения</div>
+              <div class="product__about">Компания «НПО «Электрокабельный завод» - российский<br> производитель
+                электрокабельной продукции, одним из<br> лидирующих направлений которой, является производство<br>
+                сетевых шнуров, а также жгутов проводов для бытовой техники.
               </div>
+              <button class="product__btn">Подробнее</button>
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <section class="section product">
         <div class="product__wrap">
           <h2 class="main__title">Продукция</h2>
@@ -127,7 +138,6 @@
           </ul>
         </div>
       </footer>
-      <!--include ../common/_slider-->
     </div>
   </body>
 </html>
