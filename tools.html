@@ -21,23 +21,48 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="content">
+      <div class="content--tools">
         <section class="section header">
-          <div class="navbar-fixed">
-            <nav>
-              <div class="nav-wrapper"><a class="brand-logo" href="index.html"><img src="assets/img/bg_main.png"><span class="company__title">НПО "Электрокабельный завод"</span></a>
-                <ul class="right hide-on-med-and-down" id="nav-mobile">
-                  <li><a href="aboutus.html">О нас</a></li>
-                  <li><a href="tools.html">Оборудование</a></li>
-                  <li><a href="#">Продукция</a></li>
-                  <li><a href="#">Наши клиенты</a></li>
-                  <li><a href="#">Новости</a></li>
-                  <li><a href="#">Информация</a></li>
-                  <li><a class="dropdown-button" href="#" data-activates="dropdown1">Контакты</a></li>
+          <div class="navbar">
+            <div class="navbar__container">
+              <div class="navbar__brand">
+                <div class="navbar__brand-logo"><a class="brand-logo" href="index.html"><img src="assets/img/bg_main.png"></a></div>
+                <div class="navbar__brand-title">НПО "Электрокабельный завод"</div>
+              </div>
+              <div class="nav">
+                <ul class="nav__list">
+                  <li class="nav__list_item"><a href="aboutus.html">О нас</a></li>
+                  <li class="nav__list_item"><a href="tools.html">Оборудование</a></li>
+                  <li class="nav__list_item"><a href="productpage.html">Продукция</a></li>
+                  <li class="nav__list_item"><a href="productpage.html">Наши клиенты</a></li>
+                  <li class="nav__list_item"><a href="productpage.html">Новости</a></li>
+                  <li class="nav__list_item"><a href="productpage.html">Информация</a></li>
+                  <li class="nav__list_item"><a href="productpage.html">Контакты</a></li>
                 </ul>
               </div>
-            </nav>
+            </div>
           </div>
+          <!--.navbar-fixed-->
+          <!--    nav-->
+          <!--        .nav-wrapper-->
+          <!--            a(href="index.html").brand-logo-->
+          <!--                img(src='assets/img/bg_main.png')-->
+          <!--            ul#nav-mobile.right.hide-on-med-and-down-->
+          <!--                li-->
+          <!--                    a(href="aboutus.html") О нас-->
+          <!--                li-->
+          <!--                    a(href="tools.html") Оборудование-->
+          <!--                li-->
+          <!--                    a(href="productpage.html") Продукция-->
+          <!--                li-->
+          <!--                    a(href="#") Наши клиенты-->
+          <!--                li-->
+          <!--                    a(href="#") Новости-->
+          <!--                li-->
+          <!--                    a(href="#") Информация-->
+          <!--                li-->
+          <!--                    a(href="#" data-activates='dropdown1').dropdown-button Контакты-->
+          <!---->
         </section>
         <div class="about__main">
           <div class="about__main_content">
@@ -49,17 +74,65 @@
           </div>
         </div>
         <section class="scetion">
-          <div class="tools__container">
-            <div class="tools__item">
-              <div class="tools__item_bg tools__item-hover"><img class="tools__img materialboxed" src="assets/img/DSC02180.jpg" data-caption="Полуавтоматические линии по обработке и нарезке кабеля" width="650"></div>
-            </div>
-            <div class="tools__item">
-              <div class="tools__item_bg tools__item-hover"><img class="tools__img materialboxed" src="assets/img/DSC02160.jpg"></div>
-            </div>
-            <div class="tools__item">
-              <div class="tools__item_bg tools__item-hover"><img class="tools__img materialboxed" src="assets/img/DSC02158.jpg" data-caption="Автоматический комплекс по проверке функциональных параметров шнура"></div>
+          <div class="container">
+            <div class="tools__container">
+              <div class="tools__item">
+                <div class="tools__item-img"><img class="tools__img" src="assets/img/DSC02180.jpg"></div>
+                <div class="tools__item-text">
+                  <h2 class="main__title">О компании</h2>
+                  <p class="tools__item-text-p">Компания «НПО «Электрокабельный завод» - российский производитель
+                    электрокабельной продукции, одним из лидирующих направлений которой, является производство
+                    сетевых шнуров, а также жгутов проводов для бытовой техники.
+                  </p>
+                  <p class="tools__item-text-p">Компания «НПО «Электрокабельный завод» - российский производитель
+                    электрокабельной продукции, одним из лидирующих направлений которой, является производство
+                    сетевых шнуров, а также жгутов проводов для бытовой техники.
+                  </p>
+                </div>
+              </div>
+              <div class="tools__item reverse">
+                <div class="tools__item-img"><img class="tools__img" src="assets/img/DSC02159.jpg"></div>
+                <div class="tools__item-text">
+                  <h2 class="main__title">Производство</h2>
+                  <p class="tools__item-text-p">Компания «НПО «Электрокабельный завод» - российский производитель
+                    электрокабельной продукции, одним из лидирующих направлений которой, является производство
+                    сетевых шнуров, а также жгутов проводов для бытовой техники.
+                  </p>
+                  <!--p.tools__item-text-p-->
+                  <ul>
+                    <li>производитель электрокабельной продукции<i class="fa fa-caret-right"></i></li>
+                    <li>производитель<i class="fa fa-caret-right"></i></li>
+                    <li>производитель электрокабельной<i class="fa fa-caret-right"></i></li>
+                    <li>производитель электрокабельной продукции<i class="fa fa-caret-right"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="tools__item">
+                <div class="tools__item-img"><img class="tools__img" src="assets/img/DSC02176.jpg"></div>
+                <div class="tools__item-text">
+                  <h2 class="main__title">О компании</h2>
+                  <p class="tools__item-text-p">Компания «НПО «Электрокабельный завод» - российский производитель
+                    электрокабельной продукции, одним из лидирующих направлений которой, является производство
+                    сетевых шнуров, а также жгутов проводов для бытовой техники.
+                  </p>
+                  <p class="tools__item-text-p">Компания «НПО «Электрокабельный завод» - российский производитель
+                    электрокабельной продукции, одним из лидирующих направлений которой, является производство
+                    сетевых шнуров, а также жгутов проводов для бытовой техники.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
+          <!--.tools__container-->
+          <!--    .tools__item-->
+          <!--        .tools__item_bg.tools__item-hover-->
+          <!--            img(src='assets/img/DSC02180.jpg' data-caption='Полуавтоматические линии по обработке и нарезке кабеля' width='650').tools__img.materialboxed-->
+          <!--    .tools__item-->
+          <!--        .tools__item_bg.tools__item-hover-->
+          <!--            img(src='assets/img/DSC02160.jpg').tools__img.materialboxed-->
+          <!--    .tools__item-->
+          <!--        .tools__item_bg.tools__item-hover-->
+          <!--            img(src='assets/img/DSC02158.jpg' data-caption='Автоматический комплекс по проверке функциональных параметров шнура').tools__img.materialboxed-->
         </section>
       </div>
       <footer class="footer">
