@@ -10,13 +10,15 @@
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/superfish.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <script src="/assets/js/foundation.js" defer></script>
     <script src="/assets/js/app.js" defer></script>
     <!--script(src='/assets/js/materialize.js' defer)-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-    <script src="https://use.fontawesome.com/15a0c13507.js"></script><!--[if lt IE 9]>
+    <script src="https://use.fontawesome.com/15a0c13507.js"></script>
+    <script src="/assets/js/superfish.js"></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
   <body>
@@ -30,39 +32,28 @@
                 <div class="navbar__brand-title">НПО "Электрокабельный завод"</div>
               </div>
               <div class="nav">
-                <ul class="nav__list">
+                <ul class="nav__list sf-menu">
                   <li class="nav__list_item"><a href="aboutus.html">О нас</a></li>
                   <li class="nav__list_item"><a href="tools.html">Оборудование</a></li>
-                  <li class="nav__list_item"><a href="productpage.html">Продукция</a></li>
+                  <li class="nav__list_item"><a href="productpage.html">Продукция
+                      <ul>
+                        <li><a href="productpage.html">Сетевые шнуры</a></li>
+                        <li><a href="productpage.html">Бутовые удлинители</a></li>
+                        <li><a href="productpage.html">Бутовые удлинители</a></li>
+                      </ul></a></li>
                   <li class="nav__list_item"><a href="clients.html">Наши клиенты</a></li>
                   <li class="nav__list_item"><a href="productpage.html">Новости</a></li>
-                  <li class="nav__list_item"><a href="productpage.html">Информация</a></li>
+                  <li class="nav__list_item"><a href="productpage.html">Информация
+                      <ul>
+                        <li><a href="#">Поставщикам</a></li>
+                        <li><a href="#">Контрактное производство</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                      </ul></a></li>
                   <li class="nav__list_item"><a href="productpage.html">Контакты</a></li>
                 </ul>
               </div>
             </div>
           </div>
-          <!--.navbar-fixed-->
-          <!--    nav-->
-          <!--        .nav-wrapper-->
-          <!--            a(href="index.html").brand-logo-->
-          <!--                img(src='assets/img/bg_main.png')-->
-          <!--            ul#nav-mobile.right.hide-on-med-and-down-->
-          <!--                li-->
-          <!--                    a(href="aboutus.html") О нас-->
-          <!--                li-->
-          <!--                    a(href="tools.html") Оборудование-->
-          <!--                li-->
-          <!--                    a(href="productpage.html") Продукция-->
-          <!--                li-->
-          <!--                    a(href="#") Наши клиенты-->
-          <!--                li-->
-          <!--                    a(href="#") Новости-->
-          <!--                li-->
-          <!--                    a(href="#") Информация-->
-          <!--                li-->
-          <!--                    a(href="#" data-activates='dropdown1').dropdown-button Контакты-->
-          <!---->
         </section>
         <div class="clients">
           <h2 class="main__title">Наши клиенты</h2>

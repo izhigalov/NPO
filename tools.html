@@ -10,13 +10,15 @@
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/superfish.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <script src="/assets/js/foundation.js" defer></script>
     <script src="/assets/js/app.js" defer></script>
     <!--script(src='/assets/js/materialize.js' defer)-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-    <script src="https://use.fontawesome.com/15a0c13507.js"></script><!--[if lt IE 9]>
+    <script src="https://use.fontawesome.com/15a0c13507.js"></script>
+    <script src="/assets/js/superfish.js"></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
   <body>
@@ -30,97 +32,120 @@
                 <div class="navbar__brand-title">НПО "Электрокабельный завод"</div>
               </div>
               <div class="nav">
-                <ul class="nav__list">
+                <ul class="nav__list sf-menu">
                   <li class="nav__list_item"><a href="aboutus.html">О нас</a></li>
                   <li class="nav__list_item"><a href="tools.html">Оборудование</a></li>
-                  <li class="nav__list_item"><a href="productpage.html">Продукция</a></li>
+                  <li class="nav__list_item"><a href="productpage.html">Продукция
+                      <ul>
+                        <li><a href="productpage.html">Сетевые шнуры</a></li>
+                        <li><a href="productpage.html">Бутовые удлинители</a></li>
+                        <li><a href="productpage.html">Бутовые удлинители</a></li>
+                      </ul></a></li>
                   <li class="nav__list_item"><a href="clients.html">Наши клиенты</a></li>
                   <li class="nav__list_item"><a href="productpage.html">Новости</a></li>
-                  <li class="nav__list_item"><a href="productpage.html">Информация</a></li>
+                  <li class="nav__list_item"><a href="productpage.html">Информация
+                      <ul>
+                        <li><a href="#">Поставщикам</a></li>
+                        <li><a href="#">Контрактное производство</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                      </ul></a></li>
                   <li class="nav__list_item"><a href="productpage.html">Контакты</a></li>
                 </ul>
               </div>
             </div>
           </div>
-          <!--.navbar-fixed-->
-          <!--    nav-->
-          <!--        .nav-wrapper-->
-          <!--            a(href="index.html").brand-logo-->
-          <!--                img(src='assets/img/bg_main.png')-->
-          <!--            ul#nav-mobile.right.hide-on-med-and-down-->
-          <!--                li-->
-          <!--                    a(href="aboutus.html") О нас-->
-          <!--                li-->
-          <!--                    a(href="tools.html") Оборудование-->
-          <!--                li-->
-          <!--                    a(href="productpage.html") Продукция-->
-          <!--                li-->
-          <!--                    a(href="#") Наши клиенты-->
-          <!--                li-->
-          <!--                    a(href="#") Новости-->
-          <!--                li-->
-          <!--                    a(href="#") Информация-->
-          <!--                li-->
-          <!--                    a(href="#" data-activates='dropdown1').dropdown-button Контакты-->
-          <!---->
         </section>
-        <div class="about__main">
-          <div class="about__main_content">
-            <h2 class="main__title">Оборудование</h2>
-            <p class="main__article">Компания «НПО «Электрокабельный завод» - российский производитель
-              электрокабельной продукции, одним из лидирующих направлений которой, является производство
-              сетевых шнуров, а также жгутов проводов для бытовой техники.
-            </p>
-          </div>
-        </div>
+        <!--.about__main-->
+        <!--    .about__main_content-->
+        <!--        h2.main__title Оборудование-->
+        <!--        p.main__article Компания «НПО «Электрокабельный завод» - российский производитель-->
+        <!--            | электрокабельной продукции, одним из лидирующих направлений которой, является производство-->
+        <!--            | сетевых шнуров, а также жгутов проводов для бытовой техники.-->
         <section class="scetion">
           <div class="container">
             <div class="tools__container">
-              <div class="tools__item">
-                <div class="tools__item-img"><img class="tools__img" src="assets/img/DSC02180.jpg"></div>
-                <div class="tools__item-text">
-                  <h2 class="main__title">О компании</h2>
-                  <p class="tools__item-text-p">Компания «НПО «Электрокабельный завод» - российский производитель
-                    электрокабельной продукции, одним из лидирующих направлений которой, является производство
-                    сетевых шнуров, а также жгутов проводов для бытовой техники.
-                  </p>
-                  <p class="tools__item-text-p">Компания «НПО «Электрокабельный завод» - российский производитель
-                    электрокабельной продукции, одним из лидирующих направлений которой, является производство
-                    сетевых шнуров, а также жгутов проводов для бытовой техники.
-                  </p>
-                </div>
+              <div class="tools__item-text">
+                <h2 class="main__title">Оборудование</h2>
+                <p class="tools__item-text-p">Компания «НПО «Электрокабельный завод» -  производитель
+                  электрокабельной продукции, одним из лидирующих направлений которой, является производство
+                  сетевых шнуров, а также жгутов проводов для бытовой техники. Компания «НПО «Электрокабельный завод»
+                  - российский производитель электрокабельной продукции, одним из лидирующих
+                  направлений которой, является производство сетевых шнуров, а также жгутов
+                  проводов для бытовой техники.
+                </p>
+                <p class="tools__item-text-p">Компания «НПО «Электрокабельный завод» - российский производитель
+                  электрокабельной продукции, одним из лидирующих направлений которой, является производство
+                  сетевых шнуров, а также жгутов проводов для бытовой техники.
+                </p>
+                <p class="tools__item-text-p">Компания «НПО «Электрокабельный завод» -  производитель
+                  электрокабельной продукции, одним из лидирующих направлений которой, является производство
+                  сетевых шнуров, а также жгутов проводов для бытовой техники. Компания «НПО «Электрокабельный завод»
+                  - российский производитель электрокабельной продукции, одним из лидирующих
+                  направлений которой, является производство сетевых шнуров, а также жгутов
+                  проводов для бытовой техники.
+                </p>
               </div>
-              <div class="tools__item reverse">
-                <div class="tools__item-img"><img class="tools__img" src="assets/img/DSC02159.jpg"></div>
-                <div class="tools__item-text">
-                  <h2 class="main__title">Производство</h2>
-                  <p class="tools__item-text-p">Компания «НПО «Электрокабельный завод» - российский производитель
-                    электрокабельной продукции, одним из лидирующих направлений которой, является производство
-                    сетевых шнуров, а также жгутов проводов для бытовой техники.
-                  </p>
-                  <!--p.tools__item-text-p-->
-                  <ul>
-                    <li>производитель электрокабельной продукции<i class="fa fa-caret-right"></i></li>
-                    <li>производитель<i class="fa fa-caret-right"></i></li>
-                    <li>производитель электрокабельной<i class="fa fa-caret-right"></i></li>
-                    <li>производитель электрокабельной продукции<i class="fa fa-caret-right"></i></li>
-                  </ul>
-                </div>
+              <div class="tools__item-text">
+                <!--p.tools__item-text-p-->
+                <ul>
+                  <li>производитель электрокабельной продукции<i class="fa fa-caret-right"></i></li>
+                  <li>производитель<i class="fa fa-caret-right"></i></li>
+                  <li>производитель электрокабельной<i class="fa fa-caret-right"></i></li>
+                  <li>производитель электрокабельной продукции<i class="fa fa-caret-right"></i></li>
+                </ul>
               </div>
-              <div class="tools__item">
-                <div class="tools__item-img"><img class="tools__img" src="assets/img/DSC02176.jpg"></div>
-                <div class="tools__item-text">
-                  <h2 class="main__title">О компании</h2>
-                  <p class="tools__item-text-p">Компания «НПО «Электрокабельный завод» - российский производитель
-                    электрокабельной продукции, одним из лидирующих направлений которой, является производство
-                    сетевых шнуров, а также жгутов проводов для бытовой техники.
-                  </p>
-                  <p class="tools__item-text-p">Компания «НПО «Электрокабельный завод» - российский производитель
-                    электрокабельной продукции, одним из лидирующих направлений которой, является производство
-                    сетевых шнуров, а также жгутов проводов для бытовой техники.
-                  </p>
-                </div>
+              <div class="tools__gallery_item">
+                <div class="gallery__img-full"><img class="materialboxed" src="assets/img/DSC02162.jpg"></div>
+                <div class="gallery__img-min"><img class="materialboxed" src="assets/img/DSC02180.jpg"><img class="materialboxed" src="assets/img/DSC02157.jpg"></div>
               </div>
+              <div class="tools__gallery_item">
+                <div class="gallery__img-min line"><img class="materialboxed" src="assets/img/DSC02176.jpg"><img class="materialboxed" src="assets/img/DSC02169.jpg"></div>
+              </div>
+              <div class="tools__gallery_item">
+                <div class="gallery__img-min"><img class="materialboxed" src="assets/img/DSC02158.jpg"><img class="materialboxed" src="assets/img/DSC02159.jpg"></div>
+                <div class="gallery__img-full"><img class="materialboxed" src="assets/img/DSC02163.jpg"></div>
+              </div>
+              <!--.tools__item-->
+              <!--    .tools__item-img-->
+              <!--        img(src='assets/img/DSC02180.jpg').tools__img-->
+              <!--    .tools__item-text-->
+              <!--        h2.main__title О компании-->
+              <!--        p.tools__item-text-p Компания «НПО «Электрокабельный завод» - российский производитель-->
+              <!--            | электрокабельной продукции, одним из лидирующих направлений которой, является производство-->
+              <!--            | сетевых шнуров, а также жгутов проводов для бытовой техники.-->
+              <!--        p.tools__item-text-p Компания «НПО «Электрокабельный завод» - российский производитель-->
+              <!--            | электрокабельной продукции, одним из лидирующих направлений которой, является производство-->
+              <!--            | сетевых шнуров, а также жгутов проводов для бытовой техники.-->
+              <!--.tools__item.reverse-->
+              <!--    .tools__item-img-->
+              <!--        img(src='assets/img/DSC02159.jpg').tools__img-->
+              <!--    .tools__item-text-->
+              <!--        h2.main__title Производство-->
+              <!--        p.tools__item-text-p Компания «НПО «Электрокабельный завод» - российский производитель-->
+              <!--            | электрокабельной продукции, одним из лидирующих направлений которой, является производство-->
+              <!--            | сетевых шнуров, а также жгутов проводов для бытовой техники.-->
+              <!--        //p.tools__item-text-p-->
+              <!--        ul-->
+              <!--            li производитель электрокабельной продукции-->
+              <!--                i.fa.fa-caret-right-->
+              <!--            li производитель-->
+              <!--                i.fa.fa-caret-right-->
+              <!--            li производитель электрокабельной-->
+              <!--                i.fa.fa-caret-right-->
+              <!--            li производитель электрокабельной продукции-->
+              <!--                i.fa.fa-caret-right-->
+              <!---->
+              <!--.tools__item-->
+              <!--    .tools__item-img-->
+              <!--        img(src='assets/img/DSC02176.jpg').tools__img-->
+              <!--    .tools__item-text-->
+              <!--        h2.main__title О компании-->
+              <!--        p.tools__item-text-p Компания «НПО «Электрокабельный завод» - российский производитель-->
+              <!--            | электрокабельной продукции, одним из лидирующих направлений которой, является производство-->
+              <!--            | сетевых шнуров, а также жгутов проводов для бытовой техники.-->
+              <!--        p.tools__item-text-p Компания «НПО «Электрокабельный завод» - российский производитель-->
+              <!--            | электрокабельной продукции, одним из лидирующих направлений которой, является производство-->
+              <!--            | сетевых шнуров, а также жгутов проводов для бытовой техники.-->
             </div>
           </div>
           <!--.tools__container-->
