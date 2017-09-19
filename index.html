@@ -16,9 +16,9 @@
     <script src="assets/js/app.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/js/materialize.js" defer></script>
-    <!--script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js')-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
     <script src="https://use.fontawesome.com/15a0c13507.js"></script>
-    <script src="/assets/js/superfish.js"></script><!--[if lt IE 9]>
+    <script src="assets/js/superfish.js"></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
   <body>
@@ -26,6 +26,26 @@
       <section class="section header">
         <div class="navbar">
           <div class="navbar__container">
+            <div id="nav-icon1"><span></span><span></span><span></span></div>
+            <div id="aside">
+              <ul class="contact__list--aside">
+                <li class="contact__list_item">г.Ижевск, проезд им.Дерябина, д.2/65</li>
+                <li class="contact__list_item">+7(3412) 57-09-77</li>
+                <li class="contact__list_item">npoekz@gmail.com</li>
+              </ul>
+              <ul class="nav__list--aside">
+                <li class="nav__list_item"><a href="index.html">Главная</a></li>
+                <li class="nav__list_item"><a href="aboutus.html">О нас</a></li>
+                <li class="nav__list_item"><a href="tools.html">Оборудование</a></li>
+                <li class="nav__list_item"><a href="productpage.html">Продукция</a></li>
+                <li class="nav__list_item"><a href="clients.html">Наши клиенты</a></li>
+                <li class="nav__list_item"><a href="#">Информация</a></li>
+                <li class="nav__list_item"><a href="video.html">Видео</a></li>
+              </ul>
+              <ul class="footer__bottom_list--aside">
+                <li class="footer__bottom_list__item"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-vk"></i></a><a href="#"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
             <div class="navbar__brand">
               <div class="navbar__brand-logo"><a class="brand-logo" href="index.html"><img src="assets/img/bg_main.png"></a></div>
               <div class="navbar__brand-title">НПО "Электрокабельный завод"</div>
@@ -58,6 +78,7 @@
           </div>
         </div>
       </section>
+      <!--include ../common/_aside-->
       <!--#rotator-->
       <!--    ul-->
       <!--        li.show-->
@@ -71,11 +92,10 @@
       <!--                img(src="assets/img/viking.png").slide_current-->
       <div class="header__bg">
         <div class="header__bg_container">
-          <div class="header__bg_img"><img class="main__bg" src="assets/img/1.jpg">
+          <div class="header__bg_img"><img class="main__bg" src="assets/img/about_bg.jpg">
             <div class="content_img">
-              <div class="product">Решения</div>
-              <div class="product__about">Компания «НПО «Электрокабельный завод» - российский<br> производитель
-                электрокабельной продукции, одним из<br> лидирующих направлений которой, является производство<br>
+              <div class="product__about">Компания «НПО «Электрокабельный завод» - российский производитель
+                электрокабельной продукции, одним из лидирующих направлений которой, является производство
                 сетевых шнуров, а также жгутов проводов для бытовой техники.
               </div>
               <button class="product__btn">Подробнее</button>
@@ -88,13 +108,19 @@
           <h2 class="main__title--contact">Продукция</h2>
           <div class="product__list">
             <div class="product__item"><a class="product__item_link" href="#">
-                <div class="product__item_img"><img src="assets/img/udlinitel.png"></div>
+                <div class="product__item_img">
+                  <!--img(src="assets/img/udlinitel.png")--><img src="assets/img/med.png">
+                </div>
                 <!--h6.product__title Промышленные светильники--></a></div>
             <div class="product__item"><a class="product__item_link" href="#">
-                <div class="product__item_img"><img src="assets/img/vilka.png"></div>
+                <div class="product__item_img">
+                  <!--img(src="assets/img/vilka.png")--><img src="assets/img/prom.png">
+                </div>
                 <!--h6.product__title Офисные светильники--></a></div>
             <div class="product__item"><a class="product__item_link" href="#">
-                <div class="product__item_img"><img src="assets/img/zhgut.png"></div>
+                <div class="product__item_img">
+                  <!--img(src="assets/img/zhgut.png")--><img src="assets/img/fito.png">
+                </div>
                 <!--h6.product__title Домашние светильники--></a></div>
             <!--.product__item-->
             <!--    a(href="#").product__item_link-->
