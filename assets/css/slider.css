@@ -30,7 +30,7 @@ Slider
 -------------------------------- */
 .cd-slider-wrapper {
   position: relative;
-  height: 85vh;
+  height: 100vh;
   /*padding: 10px;*/
 }
 @media only screen and (min-width: 900px) {
@@ -259,11 +259,11 @@ Slider Navigation
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  bottom: 30px;
+  bottom: 0;
 }
 .cd-slider-navigation li {
   display: inline-block;
-  margin: 0 .25em;
+  margin: 0.8em;
 }
 .cd-slider-navigation li.selected a {
   background-color: #ffffff;
@@ -303,9 +303,9 @@ Slider Navigation
     transform: translateX(-50%) scale(1);
   }
   .cd-slider-navigation a {
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
     text-align: center;
     /* reset style */
     text-indent: 0;
