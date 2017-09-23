@@ -504,8 +504,7 @@ nav ul a {
       -ms-flex-direction: row;
           flex-direction: row; }
 
-.navbar {
-  border-bottom: 4px solid #009845; }
+
 
 .navbar__container {
   -webkit-box-pack: justify;
