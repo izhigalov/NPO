@@ -133,6 +133,17 @@ Slider
 .cd-slider h2, .cd-slider p {
   line-height: 1.4;
 }
+
+@media screen and (max-width: 320px) {
+  .cd-slider h2, .cd-slider p{
+  line-height:1.2em}
+  .cd-slider h2{
+    font-size: 1.5rem;
+  }
+  .cd-slider p{
+    font-size: 1.2rem;
+  }
+}
 @media only screen and (min-width: 900px) {
   .cd-slider li {
     pointer-events: none;
