@@ -137,25 +137,27 @@
             <h2 class="main__title">Связаться с нами</h2>
             <div class="row">
               <div class="input-field col s6">
-                <input class="validate" id="last_name" type="text">
+                <input class="validate" id="last_name" type="text" name="name">
                 <label for="last_name">Ваше Имя</label>
               </div>
               <div class="input-field col s6">
-                <input class="validate" id="email" type="email">
+                <input class="validate" id="email" type="email" name="email">
                 <label for="email">Email</label>
               </div>
               <div class="input-field col s6">
-                <input class="validate" id="icon_telephone" type="tel">
+                <input class="validate" id="icon_telephone" type="tel" name="phone">
                 <label for="icon_telephone">Контактный телефон</label>
               </div>
               <div class="input-field col s12">
-                <textarea class="materialize-textarea" id="textarea1"></textarea>
+                <textarea class="materialize-textarea" id="textarea1" name="message"></textarea>
                 <label for="textarea1">Ваш вопрос</label>
               </div>
             </div>
             <div class="feedback__container">
-              <button class="feedback__btn">Отправить</button>
+              <!--button.feedback__btn Отправить-->
+              <input class="feedback__btn" type="button" value="Отправить">
             </div>
+            <div class="result"></div>
             <!--.modal__row-->
             <!--    input.modal__input(type='text' placeholder='ФИО' name='text')-->
             <!--    input.modal__input(type='text' placeholder='Контактный телефон' name='text')-->
