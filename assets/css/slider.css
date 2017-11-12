@@ -247,7 +247,7 @@ Slider Navigation
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  bottom: 20px;
+  bottom: 10px;
 }
 .cd-slider-navigation li {
   display: inline-block;
