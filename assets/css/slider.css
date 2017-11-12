@@ -74,13 +74,13 @@ Slider
   background-repeat: no-repeat;
 }
 .cd-slider li:first-of-type .image {
-  background-image: url(../img/img-1.jpg);
+  background-image: url(../img/main_bg.jpg);
 }
 .cd-slider li:nth-of-type(2) .image {
-  background-image: url(../img/img-2.jpg);
+  background-image: url(../img/main_bg1.jpg);
 }
 .cd-slider li:nth-of-type(3) .image {
-  background-image: url(../img/img-3.jpg);
+  background-image: url(../img/main_bg.jpg);
 }
 .cd-slider li:nth-of-type(4) .image {
   background-image: url(../img/img-4.jpg);
