@@ -30,7 +30,7 @@ Slider
 -------------------------------- */
 .cd-slider-wrapper {
   position: relative;
-  height: 100vh;
+  height: 85vh;
   /*padding: 10px;*/
 }
 @media only screen and (min-width: 900px) {
@@ -45,7 +45,6 @@ Slider
   height: 100%;
   overflow: hidden;
   margin: 0;
-
 }
 .cd-slider li {
   position: absolute;
@@ -75,13 +74,13 @@ Slider
   background-repeat: no-repeat;
 }
 .cd-slider li:first-of-type .image {
-  background-image: url(../img/main_bg.jpg);
+  background-image: url(../img/img-1.jpg);
 }
 .cd-slider li:nth-of-type(2) .image {
-  background-image: url(../img/main_bg1.jpg);
+  background-image: url(../img/img-2.jpg);
 }
 .cd-slider li:nth-of-type(3) .image {
-  background-image: url(../img/main_bg.jpg);
+  background-image: url(../img/img-3.jpg);
 }
 .cd-slider li:nth-of-type(4) .image {
   background-image: url(../img/img-4.jpg);
@@ -132,17 +131,6 @@ Slider
 }
 .cd-slider h2, .cd-slider p {
   line-height: 1.4;
-}
-
-@media screen and (max-width: 320px) {
-  .cd-slider h2, .cd-slider p{
-  line-height:1.2em}
-  .cd-slider h2{
-    font-size: 1.5rem;
-  }
-  .cd-slider p{
-    font-size: 1.2rem;
-  }
 }
 @media only screen and (min-width: 900px) {
   .cd-slider li {
@@ -227,7 +215,7 @@ Slider
     font-size: 1.6rem;
   }
   .cd-slider h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 0;
   }
   .cd-slider h2, .cd-slider p {
@@ -259,11 +247,11 @@ Slider Navigation
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  bottom: 0;
+  bottom: 30px;
 }
 .cd-slider-navigation li {
   display: inline-block;
-  margin: 0.8em;
+  margin: 0 .25em;
 }
 .cd-slider-navigation li.selected a {
   background-color: #ffffff;
@@ -303,9 +291,9 @@ Slider Navigation
     transform: translateX(-50%) scale(1);
   }
   .cd-slider-navigation a {
-    height: 18px;
-    width: 18px;
-    line-height: 18px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
     text-align: center;
     /* reset style */
     text-indent: 0;
