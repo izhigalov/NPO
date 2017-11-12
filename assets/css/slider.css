@@ -247,19 +247,19 @@ Slider Navigation
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  bottom: 30px;
+  bottom: 20px;
 }
 .cd-slider-navigation li {
   display: inline-block;
-  margin: 0 .25em;
+  margin: 1em;
 }
 .cd-slider-navigation li.selected a {
   background-color: #ffffff;
 }
 .cd-slider-navigation a {
   display: block;
-  height: 8px;
-  width: 8px;
+  height: 12px;
+  width: 12px;
   border-radius: 50%;
   color: transparent;
   /* image replacement */
