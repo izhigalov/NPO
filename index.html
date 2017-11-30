@@ -20,7 +20,9 @@
     <script src="https://use.fontawesome.com/15a0c13507.js"></script>
     <script src="assets/js/materialize.js" defer></script>
     <script src="assets/js/superfish.js"></script>
-    <script src="assets/js/pointy.js"></script><!--[if lt IE 9]>
+    <script src="assets/js/pointy.js"></script>
+    <script src="assets/js/mail.js"></script>
+    <!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
   <body>
@@ -50,7 +52,7 @@
             </div>
             <div class="navbar__brand">
               <div class="navbar__brand-logo"><a class="brand-logo" href="index.html"><img src="assets/img/bg_main.png"></a></div>
-              <div class="navbar__brand-title">НПО "Электрокабельный завод"</div>
+              <div class="navbar__brand-title">НПО "ЭКЗ"<br>Электрокабельный завод</div>
             </div>
             <div class="nav">
               <ul class="nav__list-contact">
@@ -123,19 +125,21 @@
       <!--                  |является производство сетевых шнуров, а также жгутов проводов для бытовой техники.-->
       <div class="slider">
         <ul class="slides">
-          <li><img src="https://lorempixel.com/580/250/nature/1">
+          <li><img src="assets/img/foto/setevoy_shnur_slaider.JPG">
             <div class="caption left-align">
-              <h3>Сетевые шнуры</h3><a class="product__btn--slider" href="aboutus.html">Подробнее</a>
+              <h3>Сетевые шнуры</h3>
+              <h4>Любых конфигураций по чертежам заказчика</h4><a class="product__btn--slider" href="setevye_shnury.html">Подробнее</a>
             </div>
           </li>
-          <li><img src="https://lorempixel.com/580/250/nature/2">
+          <li><img src="assets/img/foto/udlinitel_slaider.jpg">
             <div class="caption left-align">
-              <h3>Бытовые удлинители</h3><a class="product__btn--slider" href="aboutus.html">Подробнее</a>
+              <h3>Бытовые удлинители</h3><a class="product__btn--slider" href="udliniteli.html">Подробнее</a>
             </div>
           </li>
-          <li><img src="https://lorempixel.com/580/250/nature/3">
+          <li><img src="assets/img/foto/zhgut.jpg">
             <div class="caption left-align">
-              <h3>Жгуты проводов</h3><a class="product__btn--slider" href="aboutus.html">Подробнее</a>
+              <h3>Жгуты проводов</h3>
+              <h4>Любых конфигураций по чертежам заказчика</h4><a class="product__btn--slider" href="aboutus.html">Подробнее</a>
             </div>
           </li>
         </ul>
@@ -145,13 +149,13 @@
           <h2 class="main__title--contact">Продукция</h2>
           <div class="product__list">
             <div class="product__item"><a class="product__item_link" href="setevye_shnury.html">
-                <div class="product__item_img"><img src="assets/img/main_bg.jpg"></div>
+                <div class="product__item_img"><img src="assets/img/foto/icon_setevoy_shnur.JPG"></div>
                 <h6 class="product__title">Сетевые шнуры</h6></a></div>
             <div class="product__item"><a class="product__item_link" href="udliniteli.html">
-                <div class="product__item_img"><img src="assets/img/main_bg1.jpg"></div>
+                <div class="product__item_img"><img src="assets/img/foto/icon_udlinitel.jpg"></div>
                 <h6 class="product__title">Бытовые удлинители</h6></a></div>
             <div class="product__item"><a class="product__item_link" href="#">
-                <div class="product__item_img"><img src="assets/img/main_bg.jpg"></div>
+                <div class="product__item_img"><img src="assets/img/foto/zhgut.jpg"></div>
                 <h6 class="product__title">Жгуты проводов</h6></a></div>
             <!--.product__item-->
             <!--    a(href="#").product__item_link-->
@@ -216,22 +220,29 @@
             <div class="modal__close" id="closeModal"><span class="close__btn">&times;</span></div>
             <h2 class="main__title">Связаться с нами</h2>
             <div class="row">
-              <div class="input-field col s6">
-                <input class="validate" id="last_name" type="text" name="name">
-                <label for="last_name">Ваше Имя</label>
-              </div>
-              <div class="input-field col s6">
-                <input class="validate" id="email" type="email" name="email">
-                <label for="email">Email</label>
-              </div>
-              <div class="input-field col s6">
-                <input class="validate" id="icon_telephone" type="tel" name="phone">
-                <label for="icon_telephone">Контактный телефон</label>
-              </div>
-              <div class="input-field col s12">
-                <textarea class="materialize-textarea" id="textarea1" name="message"></textarea>
-                <label for="textarea1">Ваш вопрос</label>
-              </div>
+            	<form>
+            	<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Site Name">
+					<input type="hidden" name="admin_email" value="rim10@inbox.ru">
+					<input type="hidden" name="form_subject" value="Form Subject">
+				<!-- END Hidden Required Fields -->	
+	              <div class="input-field col s6">
+	                <input class="validate" id="last_name" type="text" name="name">
+	                <label for="last_name">Ваше Имя</label>
+	              </div>
+	              <div class="input-field col s6">
+	                <input class="validate" id="email" type="email" name="e-mail">
+	                <label for="email">Email</label>
+	              </div>
+	              <div class="input-field col s6">
+	                <input class="validate" id="icon_telephone" type="tel" name="phone">
+	                <label for="icon_telephone">Контактный телефон</label>
+	              </div>
+	              <div class="input-field col s12">
+	                <textarea class="materialize-textarea" id="textarea1" name="message"></textarea>
+	                <label for="textarea1">Ваш вопрос</label>
+	              </div>
+	            </form>  
             </div>
             <div class="feedback__container">
               <!--button.feedback__btn Отправить-->
